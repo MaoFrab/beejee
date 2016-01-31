@@ -35,7 +35,7 @@ class Controller_Admin extends Controller
 
 	function action_post_set_valid()
 	{
-		include "application/models/Model_Post.php";
+		include "application/models/model_post.php";
 		
 		$id = $_POST['id'];
 		$post = new Model_Post();
@@ -45,7 +45,7 @@ class Controller_Admin extends Controller
 
 	function action_post_edit_get()
 	{
-		include "application/models/Model_Post.php";
+		include "application/models/model_post.php";
 
 		$id = $_POST['id'];
 
@@ -58,7 +58,7 @@ class Controller_Admin extends Controller
 
 	function action_post_edit_post()
 	{
-		include "application/models/Model_Post.php";
+		include "application/models/model_post.php";
 
 		$subject = $_POST['subject'];
 		$text = $_POST['text'];
@@ -72,7 +72,7 @@ class Controller_Admin extends Controller
 
 	function action_post_delete()
 	{
-		include "application/models/Model_Post.php";
+		include "application/models/model_post.php";
 
 		$id = $_POST['id'];
 

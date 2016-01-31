@@ -11,7 +11,7 @@ class Controller_Login extends Controller
 			$login = $_POST['login'];
 			$password =$_POST['password'];
 			
-			if($login=="admin" && $password=="12345")
+			if($login=="admin" && $password=="123")
 			{
 				$data["login_status"] = "access_granted";
 				

@@ -10,7 +10,7 @@ class Controller_Admin extends Controller
 		
 		if ( $_SESSION['admin'] == "123" )
 		{
-			include "application/models/Model_Post.php";
+			include "application/models/model_post.php";
 
 			$post = new Model_Post();
 			$data = $post->get_secured_data();

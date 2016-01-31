@@ -10,7 +10,7 @@ class Model
 	public function setConnection()
 	{
 		$user = "root";
-		$pass = "";
+		$pass = "12345";
 		$dbh = new PDO('mysql:host=localhost;dbname=beejee', $user, $pass);
 
 		return $dbh;

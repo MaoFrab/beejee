@@ -8,7 +8,7 @@ class Controller_Admin extends Controller
 		session_start();
 		
 		
-		if ( $_SESSION['admin'] == "12345" )
+		if ( $_SESSION['admin'] == "123" )
 		{
 			include "application/models/Model_Post.php";
 
